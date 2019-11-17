@@ -17,7 +17,7 @@
     filename code1 temp;
   %end;
   %else %do;
-    filename code1 &savefile.;
+    filename code1 "&savefile.";
   %end;
 
   *** READ AND INCLUDE URL ***;
